@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniely Santos</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+       
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home" >Início</a></li>
+                <li><a href="#sobre" >Sobre</a></li>
+                <li><a href="#skills" >Experiencias</a></li>
+                <li><a href="#contato" >Contato</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Daniely Santos <h2>Graduanda em ADS e apaixonada por tecnologia.</h2><br> 
+                </h1>
+            
+            <a href="#projetos" class="btn" data-i18n="hero_btn">Ver O Meu Trabalho</a>
+        </div>
+        <div class="profile-container">
+            <img src="profile.jpg" alt="Foto de Perfil" class="profile-pic">
+        </div>
+    </section>
+    <div class="carrossel">
+
+<button class="btnft prev">&#10094;</button>
+
+<div class="containerft">
+
+<img src="image.png" class="slide">
+<img src="image2.jpg" class="slide">
+<img src="profile.jpg"class="slide">
+<img src="image3.jpg" class="slide">
+<img src="image4.png"class="slide">
+<img src="image5.jpg"class="slide">
+
+</div>
+
+<button class="btnft next">&#10095;</button>
+
+</div>
+
+    <section id="sobre">
+        <h2><span data-i18n="about_title">Sobre</span></h2>
+        <div class="about-content">
+            <p >
+                Sou desenvolvedora, nasci em 27/07/2006, sou apaixonada por tecnologia e aprender novas coisas. Concluí o ensino médio integrado ao curso técnico em Análise e Desenvolvimento de Sistemas pela ETEC, onde tive meu primeiro contato mais aprofundado com programação, desenvolvimento web e projetos em equipe.
+
+Atualmente, estou cursando a graduação em Análise e Desenvolvimento de Sistemas na FATEC, buscando ampliar meus conhecimentos em desenvolvimento de software e fortalecer minha experiência prática na área. <br> <br>
+
+Gosto muito de aprender novas tecnologias, resolver problemas e transformar ideias em soluções reais. Ao longo da minha formação participei de diversos projetos colaborativos, desenvolvendo um bom histórico de trabalho em equipe, comunicação e organização.
+<br> <br>
+Também tive a oportunidade de participar de eventos de inovação como deathons e hackathons, onde conquistei premiações junto ao meu time. Essas experiências fortaleceram minhas habilidades de criatividade, colaboração e desenvolvimento de soluções em ambientes desafiadores.
+
+Estou sempre em busca de novos desafios que me permitam evoluir como desenvolvedora e contribuir com projetos inovadores.
+
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+    <h2><span data-i18n="skills_title">Tecnologias</span></h2>
+    <div class="skills-grid" id="skillsGrid">
+            
+    <div class="card" style="width: 18rem;">
+        <img src="html.png" style="width: 70%; " class="card-img-top" alt="...">
+        <div class="card-linguagem">
+        <h4 class="card-title">HTML CSS</h4>
+        <p class="card-text">Estrutura básica de desenvolvimento web.</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="php.png" style="width: 70%; " class="card-img-top" alt="...">
+        <div class="card-linguagem">
+        <h4 class="card-title">PHP</h4>
+        <p class="card-text">Conhecimento Técnico e integração com banco de dados.</p>
+        </div> 
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="python.png" style="width: 70%; "class="card-img-top" alt="...">
+        <div class="card-linguagem">
+            <h4 class="card-title">PYTHON</h4>
+            <p class="card-text">Curso de 140 horas em andamento na Udemy.
+                <div class="barra">
+                    <div class="progresso"> </div> 
+                </div>
+                <span>50%</span>
+            </p>
+      
+        </div> 
+    </div>
+
+  <div class="card" style="width: 18rem;">
+        <img src="java.png" style="width: 70%;" class="card-img-top" alt="...">
+        <div class="card-linguagem">
+            <h4 class="card-title">JAVA</h4>
+            <p class="card-text">Curso em andamento, conhecimento básico.
+                <div class="barra">
+                    <div class="progresso2"> </div> 
+                </div>
+                <span>30%</span>
+            </p>
+      
+        </div> 
+    </div>
+</section>
+
+            
+   
+
+    <section id="projetos">
+        <h2><span data-i18n="projects_title">Meus Projetos</span></h2>
+        <div class="grid">
+
+            <article class="card">
+                <h3 >Sistema de Gerenciamento de Estoque</h3>
+                <p >Um projeto Feito no curso tecnico para gerenciar vendas e estoque de
+                    produtos.</p>
+                <span>HTML • CSS • JS • PHP • SQL</span>
+                <button class="btn"><a href="">Ver Detalhes</a> </button>
+            </article>
+
+          <article class="card">
+                <h3 >Sistema de Cadastro e login</h3>
+                <p >Um projeto feito para realizar o cadastro e o login de usúarios.</p>
+                <span>HTML • CSS • JS • PHP • SQL</span>
+                <button class="btn"><a href="">Ver Detalhes</a> </button>
+            </article>
+
+    
+    <article class="card">
+                <h3 >TCC - Sistema Gerenciamento de plantações</h3>
+                <p >Um projeto feito para complementar o hardware de TCC, o sistema tinha como objetivo gerenciar as plantações, 
+                    autenticar usuarios e diferenciar os gerenciamentos por session id.</p>
+                <span>HTML • CSS • JS • PHP • SQL</span>
+                <button class="btn"><a href="">Ver Detalhes</a> </button>
+            </article>
+
+           
+        </div>
+    </section>
+
+    <section >
+        <h2><span >Contato</span></h2>
+        <div style="text-align: center; color: var(--text-muted);">
+            <p data-i18n="contact_text">Oportunidades, network e suportes </p>
+            <br>
+            <a href="mailto:contatodanielysantos@gmail.com" class="btn" >E-mail</a>
+            <a href="" class="btn" >Linkedin</a>
+
+        </div>
+    </section>
+
+   
+
+</body>
+
+</html>
+<script>
+let index = 0;
+
+const slides = document.querySelectorAll(".slide");
+const container = document.querySelector(".containerft");
+
+document.querySelector(".next").addEventListener("click", ()=>{
+    index++;
+
+    if(index >= slides.length){
+        index = 0;
+    }
+
+    atualizar();
+});
+
+document.querySelector(".prev").addEventListener("click", ()=>{
+    index--;
+
+    if(index < 0){
+        index = slides.length - 1;
+    }
+
+    atualizar();
+});
+
+function atualizar(){
+    const largura = slides[0].clientWidth;
+    container.style.transform = `translateX(-${index * largura}px)`;
+
+}</script>
